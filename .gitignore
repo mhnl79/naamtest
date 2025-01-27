@@ -4,7 +4,3 @@ venv/
 __pycache__/
 # pytest cache
 .pytest_cache/
-# Andere werkruimte bestanden
-.vscode/
-.idea/
-.DS_Store
