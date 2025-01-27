@@ -5,10 +5,10 @@ Dit project is ontwikkeld als onderdeel van mijn opleiding en omvat enkele testc
 ## Bestanden in het project
 
 1. **name_function.py**
-    - Bevat de `get_formatted_name` functie die een volledige naam netjes formatteert met een optioneel tussenvoegsel.
+    - Bevat de `formatteer_naam` functie die een volledige naam netjes formatteert met een optioneel tussenvoegsel.
 
 2. **test_name_function.py**
-    - Bevat testcases om te controleren of de `get_formatted_name` functie correct functioneert. Hier zijn twee belangrijke tests:
+    - Bevat testcases om te controleren of de `formatteer_naam` functie correct functioneert. Hier zijn twee belangrijke tests:
         - `test_voornaam_achternaam()`: Test of voor- en achternamen worden geformatteerd zoals "Piet Dijk".
         - `test_voornaam_tussenvoegsel_achternaam()`: Test of voor- en achternamen met tussenvoegsel worden geformatteerd zoals "Piet van Dijk".
 

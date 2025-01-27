@@ -1,4 +1,4 @@
-def get_formatted_name(voornaam, achternaam, tussenvoegsel=''):
+def formatteer_naam(voornaam, achternaam, tussenvoegsel=''):
     """Genereer een netjes geformatteerde volledige naam."""
     if tussenvoegsel:
         volledige_naam = f"{voornaam} {tussenvoegsel} {achternaam}"

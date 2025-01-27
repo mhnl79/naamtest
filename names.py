@@ -1,4 +1,4 @@
-from name_function import get_formatted_name  
+from name_function import formatteer_naam
 
 print("Vul de volgende gegevens in voor elke naam:")
 print("Voornaam, achternaam, tussenvoegsel (optioneel)")
@@ -17,7 +17,7 @@ while True:
     if tussenvoegsel.lower() == 'q':
         break
     
-    geformatteerde_naam = get_formatted_name(voornaam, achternaam, tussenvoegsel)
+    geformatteerde_naam = formatteer_naam(voornaam, achternaam, tussenvoegsel)
     print(f"\tNetjes geformatteerde naam: {geformatteerde_naam}")
 
 
