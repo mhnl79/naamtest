@@ -36,4 +36,6 @@ python names.py
 
 
 Als je de testcases wilt uitvoeren, gebruik dan het volgende commando:
-pytest test_name_function.py
+pytest
+
+Je hoeft de bestandsnaam niet apart te vermelden, omdat pytest automatisch zoekt naar bestanden die beginnen met test_ of eindigen op _test.py. Pytest detecteert en voert alle testfuncties in deze bestanden uit.
